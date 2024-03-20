@@ -25,7 +25,7 @@ export const Target = () => {
                    en la Universidad San Carlos de Guatemala, Ciencias Economicas<br/><br/>
                    Tengo mas de 5 años de experiencia en puestos administrativos y Call Center.
                    <br/><br/>
-                   Pero en el año 2023 tome la desicion de empezar a adquirir conocimientos en la programacion
+                   En el año 2023 tome la desicion de empezar a adquirir conocimientos en la programacion
                    por lo que actualmente estoy tomando un curso en <span className='text-indigo-600'> INTECAP de Desarrollo Web con PHP y MySQL </span>
                    y otro Curso en <span className=' text-indigo-600'>KINAL de FULL STACK con .NET y Angular</span>. <br/><br/>
                    El objetivo para este 2024 es que al terminar estos cursos pueda conseguir una oportunidad
