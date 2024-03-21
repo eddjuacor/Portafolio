@@ -1,6 +1,7 @@
 import perfil from '../../../../public/assets/img/icons/foto.jpg'
 import close from '../../../../public/assets/img/icons/close.svg'
 import { Likes } from '../generalscomponents/Likes'
+import  Form  from '../generalscomponents/Form'
 
 export const Target = () => {
     return (
@@ -21,10 +22,7 @@ export const Target = () => {
                 </p>
             </div>
             <div className=" w-[67%] mx-auto text-slate-70000 font-light mt-4">
-                <p className=''>
-                   FORM
-                   -------------- 
-                </p>
+                <Form/>
             </div>
             <div className="flex justify-between items-center mt-10">
                 <Likes/>

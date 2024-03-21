@@ -22,7 +22,7 @@ export const Target01 = () => {
             </div>
             <div className=" w-[67%] mx-auto text-slate-70000 font-light mt-4">
                 <p className=''>
-                   Contact
+                   Contactame para trabajar juntos.
                 </p>
             </div>
             <div className="flex justify-between items-center mt-10">
