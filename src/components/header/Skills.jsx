@@ -14,18 +14,18 @@ const Skills = () => {
     <div className="">
         <h2 className="text-2xl text-center lg:text-4xl font-playFair text-zinc-600">Skills</h2>
         <div className="flex  gap-2">
-          <div><img src={html} alt=""className='size-6 md:size-8'/></div>
-          <div><img src={css} alt=""className=' size-6 md:size-8'/></div>
-          <div><img src={js} alt=""className=' size-6 md:size-8'/></div>
-          <div><img src={react} alt=""className=' size-6 md:size-8'/></div>
-          <div><img src={angular} alt=""className=' size-6 md:size-8'/></div>
+          <div><img src={html} alt=""className='size-12'/></div>
+          <div><img src={css} alt=""className=' size-12 '/></div>
+          <div><img src={js} alt=""className=' size-12'/></div>
+          <div><img src={react} alt=""className=' size-12'/></div>
+          <div><img src={angular} alt=""className=' size-12'/></div>
         </div>
           <div className="flex gap-2">
-          <div><img src={php} alt=""className='size-6 md:size-8'/></div>
-          <div><img src={laravel} alt=""className='size-6 md:size-8'/></div>
-          <div><img src={c} alt=""className='size-6 md:size-8'/></div>
-          <div><img src={dotnet} alt=""className='size-6 md:size-8'/></div>
-          <div><img src={mysql} alt=""className='size-6 md:size-8'/></div>
+          <div><img src={php} alt=""className='size-12'/></div>
+          <div><img src={laravel} alt=""className='size-12'/></div>
+          <div><img src={c} alt=""className='size-12'/></div>
+          <div><img src={dotnet} alt=""className='size-12'/></div>
+          <div><img src={mysql} alt=""className='size-12'/></div>
         </div>
       </div>
   )
