@@ -27,7 +27,7 @@ export const Target = () => {
                    Desde el 15 de Noviembre de 2021 <br/> 
                 </p>
             </div>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center mt-10">
                 <Likes/>
                 <p className=' text-slate-500 mr-4 cursor-pointer'>51 comentarios</p>
             </div>
