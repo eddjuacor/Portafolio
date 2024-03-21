@@ -12,7 +12,7 @@ import c from '../../../public/assets/img/icons/c.svg'
 const Skills = () => {
   return (
     <div className="">
-        <h2 className="text-2xl text-center lg:text-4xl font-playFair text-zinc-600">Skills</h2>
+        <h2 className="text-2xl text-center lg:text-4xl font-playFair text-zinc-600 mb-4">Skills</h2>
         <div className="flex  gap-2">
           <div><img src={html} alt=""className='size-12'/></div>
           <div><img src={css} alt=""className=' size-12 '/></div>

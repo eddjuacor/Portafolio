@@ -16,7 +16,7 @@ export const Header = () => {
             </div>
             <div className=" w-[85%] max-w-full mx-auto">
                 <div className=" relative flex items-center min-h-half-avatar py-2">
-                    <picture className='absolute mb-4'>
+                    <picture className='absolute mb-6'>
                         <img src={perfil} alt="" className='rounded-full bg-slate-50 shadow-lg shadow-slate-600/50 size-32 lg:size-40 ' />
                     </picture>
                 </div>
@@ -28,15 +28,15 @@ export const Header = () => {
             <div className='xl:mt-12 w-[85%] max-w-full mx-auto '>
                 
                     <div className=' w-[100%] flex justify-between flex-wrap'>
-                        <div className='w-1/2'>
-                        <h1 className='text-2xl lg:text-4xl font-playFair text-zinc-600'>Eddy Juárez <br /> <span className='text-lg font-light'>I'am Full Stack Developer</span></h1>
+                        <div className='w-1/2 mb-10 mt-4 md:mt-0'>
+                        <h1 className=' text-2xl lg:text-4xl font-fraunces'>Eddy Juárez <br /> <span className='text-sm md:text-lg '>I'am Full Stack Developer</span></h1>
                         </div>    
 
                         <div className='block md:hidden'>
                             <Info />
                         </div>
 
-                        <div className=" hidden md:block ">
+                        <div className="  hidden md:block  ">
                             <Skills />
                         </div>
                     </div>

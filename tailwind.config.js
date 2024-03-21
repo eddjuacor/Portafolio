@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        playFair: ['PlayFair'],
+        'fraunces': ['"Fraunces"','serif'], 
+        'roboto': ['"Roboto"','sans-serif'] 
        
       },
     },

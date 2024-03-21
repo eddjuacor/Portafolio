@@ -21,7 +21,7 @@ export const Target01 = () => {
                     <span>Hace 6 semanas</span>
                 </p>
             </div>
-            <div className=" w-[67%] mx-auto text-slate-500 font-mono">
+            <div className=" w-[67%] mx-auto text-slate-70000 font-light mt-4">
                 <p>Mi objetivo para este año 2024 es conseguir un mejor empleo y poder
                     estudiar Ingenieria En Sistemas.
                     <br/>

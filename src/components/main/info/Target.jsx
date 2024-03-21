@@ -20,7 +20,7 @@ export const Target = () => {
                     <span>Hace 4 Semanas</span>
                 </p>
             </div>
-            <div className=" w-[67%] mx-auto text-slate-500 font-mono">
+            <div className=" w-[67%] mx-auto text-slate-70000 font-light mt-4">
                 <p className=''>Soy estudiante del 5to. semestre de Administracion de Empresas
                    en la Universidad San Carlos de Guatemala, Ciencias Economicas<br/><br/>
                    Tengo mas de 5 años de experiencia en puestos administrativos y Call Center.

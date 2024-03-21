@@ -20,7 +20,7 @@ export const Target = () => {
                     <span>Hace 4 horas</span>
                 </p>
             </div>
-            <div className=" w-[67%] mx-auto text-slate-500 font-mono">
+            <div className=" w-[67%] mx-auto text-slate-70000 font-light mt-4">
                 <p className=''>Project #1<br/>
                    
                    <br/>
