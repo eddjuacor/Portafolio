@@ -1,6 +1,6 @@
 import perfil from '../../../../public/assets/img/icons/foto.jpg'
 import close from '../../../../public/assets/img/icons/close.svg'
-import like from '../../../../public/assets/img/icons/like.svg'
+import { Likes } from '../generalscomponents/Likes'
 
 export const Target01 = () => {
     return (
@@ -27,7 +27,7 @@ export const Target01 = () => {
                 </p>
             </div>
             <div className="flex justify-between items-center">
-                <img src={like} alt="" className='size-5 ml-4 cursor-pointer'/>
+                <Likes/>
                 <p className=' text-slate-500 mr-4 cursor-pointer'>51 comentarios</p>
             </div>
 

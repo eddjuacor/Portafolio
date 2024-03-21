@@ -1,6 +1,6 @@
 import perfil from '../../../../public/assets/img/icons/foto.jpg'
 import close from '../../../../public/assets/img/icons/close.svg'
-import like from '../../../../public/assets/img/icons/like.svg'
+import { Likes } from '../generalscomponents/Likes'
 import student from '../../../../public/assets/img/icons/student.svg'
 
 export const Target01 = () => {
@@ -22,15 +22,15 @@ export const Target01 = () => {
                 </p>
             </div>
             <div className=" w-[67%] mx-auto text-slate-70000 font-light mt-4">
-                <p>Mi objetivo para este año 2024 es conseguir un mejor empleo y poder
-                    estudiar Ingenieria En Sistemas.
+                <p>Mi objetivo para este año 2024 es buscar mi primer oportunidad
+                    para trabajar como desarrllador y estudiar Ingenieria En Sistemas.
                     <br/>
                    <br/>
                   <img src={student} alt="" className='size-14 ml-4 cursor-pointer' />
                 </p>
             </div>
             <div className="flex justify-between items-center">
-                <img src={like} alt="" className='size-5 ml-4 cursor-pointer'/>
+                <Likes/>
                 <p className=' text-slate-500 mr-4 cursor-pointer'>51 comentarios</p>
             </div>
 
