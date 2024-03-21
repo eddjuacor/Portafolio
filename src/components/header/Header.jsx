@@ -12,7 +12,7 @@ export const Header = () => {
     return (
         <div className="md:w-[60%]  mx-auto relative">
             <div className=" aspect-[4/1] mx-auto bg-black shadow-lg shadow-slate-400 flex justify-center">
-                <img src={fondo} alt="" className=' w-[500px] h-[300px] ' />
+                <img src={fondo} alt="" className=' w-[300px] h-[200px] ' />
             </div>
             <div className=" w-[85%] max-w-full mx-auto">
                 <div className=" relative flex items-center min-h-half-avatar py-2">
