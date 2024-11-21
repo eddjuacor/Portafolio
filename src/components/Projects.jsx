@@ -21,7 +21,7 @@ const Projects = () => {
                     initial={{ opacity: 0, x: -100}}
                     transition={{ duration: 1}}
                     className="w-full lg:w-1/4 ">
-                        <a href="https://portafolioeddy.vercel.app/">
+                        <a href="https://apiventas.netlify.app/login">
                         <img src={project.image} 
                              width={150} 
                              height={150} 

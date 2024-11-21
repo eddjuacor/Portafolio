@@ -1,5 +1,5 @@
 
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.JPG";
 import project3 from "../assets/projects/project-3.jpg";
 
 
@@ -42,11 +42,11 @@ export const EXPERIENCES = [
 export const PROJECTS = [
 
   {
-    title: "Task Management App",
+    title: "Sistema de Ventas",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Este proyecto se realizo con el fin de practicar mis habilidades, utilice .NET para realizar el ApiRestFull, utilizando arquitectura NCapas y Angular para el Frontend, como base de datos utilice SQLServer. Puedes probar la aplicacion con las siguientes credenciales (para empleado: empleado@empleado.com clave: 123456, para supervisor supervisor@supervisor.com clave: 123456, en el caso del administrador con este usuario podemos realizar mas cosas, como por ejemplo agregar un nuevos usuarios)",
+    technologies: ["HTML", "CSS", "Angular", ".NET", "SQLServer"],
   },
   {
     title: "Portfolio Website",
