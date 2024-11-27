@@ -1,4 +1,5 @@
 
+import project1 from "../assets/projects/project-1.JPG";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 
@@ -40,6 +41,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Ecommerce",
+    image: project1,
+    description:
+      "Este proyecto se realizo con el fin de practicar mis habilidades, utilice .NET para realizar el ApiRestFull, utilizando arquitectura NCapas y Blazor para el Frontend, como base de datos utilice SQLServer. Puedes probar la aplicacion creando tu cuenta como cliente, en el caso del administrador, con este usuario podemos crear categorias, crear productos, crear y editar usuarios, se agrego pasarela de pagos la cual no esta consumiendon ningun servicio ya que se realizo como practica",
+    technologies: [".NET", "BLAZOR", "BOOTSTRAP", "SQLServer"],
+    link:"https://ecommercegt-502.netlify.app/"
+  },
 
   {
     title: "Sistema de Ventas",
@@ -47,6 +56,7 @@ export const PROJECTS = [
     description:
       "Este proyecto se realizo con el fin de practicar mis habilidades, utilice .NET para realizar el ApiRestFull, utilizando arquitectura NCapas y Angular para el Frontend, como base de datos utilice SQLServer. Puedes probar la aplicacion con las siguientes credenciales (para empleado: empleado@empleado.com clave: 123456, para supervisor supervisor@supervisor.com clave: 123456, en el caso del administrador con este usuario podemos realizar mas cosas, como por ejemplo agregar un nuevos usuarios)",
     technologies: ["HTML", "CSS", "Angular", ".NET", "SQLServer"],
+    link:"https://apiventas.netlify.app/login"
   },
   {
     title: "Portfolio Website",
@@ -54,6 +64,7 @@ export const PROJECTS = [
     description:
       "Protafolio personal el cual actualizo constantemetne.",
     technologies: ["HTML", "CSS", "React", "Tailwind"],
+    link:"https://portafolioeddy.vercel.app/"
   },
  
 ];
